@@ -25,7 +25,6 @@
 		3647415020DCD1F3007C975D /* ExtrasKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3647414E20DCD1F3007C975D /* ExtrasKitTests.swift */; };
 		364FA07320DA891800D7B25B /* ExtrasKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 364FA07120DA891800D7B25B /* ExtrasKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B71F30A26026A4900EEB16E /* ExtrasKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F2FB26026A4900EEB16E /* ExtrasKit.swift */; };
-		5B71F30B26026A4900EEB16E /* UIImage+ExtrasKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F2FE26026A4900EEB16E /* UIImage+ExtrasKit.swift */; };
 		5B71F30C26026A4900EEB16E /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F2FF26026A4900EEB16E /* UIImage+Color.swift */; };
 		5B71F30D26026A4900EEB16E /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F30026026A4900EEB16E /* UIImage+Orientation.swift */; };
 		5B71F30E26026A4900EEB16E /* UIButton+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F30226026A4900EEB16E /* UIButton+Layout.swift */; };
@@ -36,6 +35,7 @@
 		5B71F31326026A4900EEB16E /* UIView+Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F30926026A4900EEB16E /* UIView+Screenshot.swift */; };
 		5B7405282608A9F00090FE6B /* UIBarButtonItem+ExtrasKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7405272608A9F00090FE6B /* UIBarButtonItem+ExtrasKit.swift */; };
 		5B74052D2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74052C2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift */; };
+		5BE5DE2626254DD100CFD481 /* UIImage+ExtrasKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5DE2526254DD100CFD481 /* UIImage+ExtrasKit.swift */; };
 		D43FE318E73E903F50A7B644 /* Pods_ExtrasKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ECF280EC2F23EC55A6C08D /* Pods_ExtrasKit.framework */; };
 		F305935A9561752831AD405F /* Pods_ExtrasKit_ExtrasKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949AAD7EFCF071F9D4F003A5 /* Pods_ExtrasKit_ExtrasKitTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,7 +63,6 @@
 		55ECF280EC2F23EC55A6C08D /* Pods_ExtrasKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtrasKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B71F2E4260268B600EEB16E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		5B71F2FB26026A4900EEB16E /* ExtrasKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtrasKit.swift; sourceTree = "<group>"; };
-		5B71F2FE26026A4900EEB16E /* UIImage+ExtrasKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ExtrasKit.swift"; sourceTree = "<group>"; };
 		5B71F2FF26026A4900EEB16E /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
 		5B71F30026026A4900EEB16E /* UIImage+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Orientation.swift"; sourceTree = "<group>"; };
 		5B71F30226026A4900EEB16E /* UIButton+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Layout.swift"; sourceTree = "<group>"; };
@@ -74,6 +73,7 @@
 		5B71F30926026A4900EEB16E /* UIView+Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Screenshot.swift"; sourceTree = "<group>"; };
 		5B7405272608A9F00090FE6B /* UIBarButtonItem+ExtrasKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+ExtrasKit.swift"; sourceTree = "<group>"; };
 		5B74052C2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+FixedSpace.swift"; sourceTree = "<group>"; };
+		5BE5DE2526254DD100CFD481 /* UIImage+ExtrasKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ExtrasKit.swift"; sourceTree = "<group>"; };
 		5DC935573ABC467E27D69080 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6D8D763650214551CFB6491A /* ExtrasKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ExtrasKit.podspec; sourceTree = "<group>"; };
 		949AAD7EFCF071F9D4F003A5 /* Pods_ExtrasKit_ExtrasKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtrasKit_ExtrasKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,7 +169,7 @@
 		5B71F2FD26026A4900EEB16E /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				5B71F2FE26026A4900EEB16E /* UIImage+ExtrasKit.swift */,
+				5BE5DE2526254DD100CFD481 /* UIImage+ExtrasKit.swift */,
 				5B71F2FF26026A4900EEB16E /* UIImage+Color.swift */,
 				5B71F30026026A4900EEB16E /* UIImage+Orientation.swift */,
 			);
@@ -413,12 +413,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B74052D2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift in Sources */,
+				5BE5DE2626254DD100CFD481 /* UIImage+ExtrasKit.swift in Sources */,
 				5B71F31026026A4900EEB16E /* UIColor+Hex.swift in Sources */,
 				5B71F30D26026A4900EEB16E /* UIImage+Orientation.swift in Sources */,
 				5B71F30E26026A4900EEB16E /* UIButton+Layout.swift in Sources */,
 				5B71F30F26026A4900EEB16E /* UIButton+ExtrasKit.swift in Sources */,
 				5B71F31326026A4900EEB16E /* UIView+Screenshot.swift in Sources */,
-				5B71F30B26026A4900EEB16E /* UIImage+ExtrasKit.swift in Sources */,
 				5B71F30A26026A4900EEB16E /* ExtrasKit.swift in Sources */,
 				5B71F31226026A4900EEB16E /* UIView+ExtrasKit.swift in Sources */,
 				5B71F31126026A4900EEB16E /* UIColor+ExtrasKit.swift in Sources */,

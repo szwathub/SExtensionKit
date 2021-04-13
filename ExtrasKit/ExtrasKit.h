@@ -20,5 +20,3 @@ FOUNDATION_EXPORT double ExtrasKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char ExtrasKitVersionString[];
 
 /// In this header, you should import all the public headers of your framework using statements like #import <ExtrasKit/PublicHeader.h>
-
-

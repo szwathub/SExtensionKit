@@ -36,5 +36,3 @@ extension ExtrasKitCompatible {
         return ExtrasKitWrapper(self)
     }
 }
-
-
